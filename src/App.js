@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './stylesheets/App.css';
+import './App.css';
 
 // Custom Components
 import PokerBoard from './components/PokerBoard';
