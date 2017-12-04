@@ -1,16 +1,17 @@
-import fs from 'fs';
+// import fs from 'fs';
+
 
 
 const file = fs.readFile('/poker')
 
-class ReadPokerFile{
-    constructor(){
+class ReadPokerFile {
+    constructor() {
         this.object = {
             file: file,
         }
     }
-    
-    console(){
+
+    console() {
         console.log("New File!");
     }
 }
